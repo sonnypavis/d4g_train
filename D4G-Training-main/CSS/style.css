@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 250px;
+	height: 300px;
+	background-color: #FAD390;
+	color: #3C6382;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 10px;
+	font-size: 0.9em;
+	cursor: pointer;
+	box-sizing: border-box;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card > h2 {
+	text-align: center;
+}
+
+.selected-card {
+	outline: 5px solid #32ff7e;
+	background-color: #3C6382;
+	color: #FAD390;
+}
+
+.unselectable {
+	outline: 5px solid #e74c3c;
+}
+
+#checkbox {
+	width: 50px;
+	height: 50px;
+	background-image: url("../Images/unchecked.png");
+	background-position: center;
+	background-size: cover;
+	float: right;
+}
+
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	background-color: #3C6382;
+}
+
+h1 {
+	color: #FAD390;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.container-landing {
+	margin: auto;
+	width: fit-content;
+	background-image: url('../Images/brain.png');
+	background-size: cover;
+	width: 80px;
+	aspect-ratio: 1;
+	padding: 10;
+}
+
+a {
+	text-decoration: none;
+}
+
+#counter {
+	margin-bottom: 20px;
+}
+
+.container-report {
+	position: absolute;
+	top: 80px;
+	right: 80px;
+	margin: auto;
+	width: fit-content;
+	background-image: url('../Images/save.png');
+	background-size: cover;
+	width: 70px;
+	aspect-ratio: 1;
+	padding: 10;
+	cursor: pointer;
+}
+
+h1 {
+	margin-bottom: 80px;
+}
+
+.report-card {
+	width: 300px;
+	height: fit-content;
+}
+
+#link {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	text-align: center;
+	color: #FAD390;
+	margin-top: 75px;
+}
+
+#selected-items {
+	position: relative;
+	top: 0px;
+	right: -10px;
+	float: right;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #3C6382;
+	background-color: #FAD390;
+	width: 30px;
+	aspect-ratio: 1;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #FAD390;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FAD390;
+}
+
+tr:first-child > td {
+	font-weight: bold;
+}
